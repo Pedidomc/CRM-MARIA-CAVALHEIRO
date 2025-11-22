@@ -35,5 +35,8 @@ CRM simples em PHP (PDO + MySQL) e Tailwind para organizar leads de atacado. Inc
 - Prepared statements PDO para prevenir SQL Injection.
 - `htmlspecialchars` aplicado em saídas principais.
 
+## Testes rápidos
+- Checagem de sintaxe PHP em todos os arquivos: `./scripts/test.sh`
+
 ## Licença
 Uso livre para fins de estudo e customização.
