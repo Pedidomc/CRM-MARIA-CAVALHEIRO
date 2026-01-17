@@ -1,0 +1,262 @@
+[
+  {
+    "id": "cli_001",
+    "nome": "Boutique Elegância",
+    "nome_completo": "Maria Souza Silva",
+    "telefone": "(11) 98765-4321",
+    "whatsapp": "5511987654321",
+    "cpf_cnpj": "123.456.789-00",
+    "vendedora_selecionada": "Daia",
+    "endereco_completo": "Rua das Flores, 123 - São Paulo/SP",
+    "cep": "01234-567",
+    "created_at": 1705449600000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "cli_002",
+    "nome": "Loja Fashion Store",
+    "nome_completo": "Ana Paula Santos",
+    "telefone": "(21) 97654-3210",
+    "whatsapp": "5521976543210",
+    "cpf_cnpj": "98.765.432/0001-10",
+    "vendedora_selecionada": "Ariane",
+    "endereco_completo": "Av. Atlântica, 456 - Rio de Janeiro/RJ",
+    "cep": "22021-000",
+    "created_at": 1705536000000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "cli_003",
+    "nome": "Style Center",
+    "nome_completo": "João Carlos Oliveira",
+    "telefone": "(11) 96543-2109",
+    "whatsapp": "5511965432109",
+    "cpf_cnpj": "111.222.333-44",
+    "vendedora_selecionada": "Daia",
+    "endereco_completo": "Rua Augusta, 789 - São Paulo/SP",
+    "cep": "01305-100",
+    "created_at": 1705622400000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "cli_004",
+    "nome": "Boutique Bella",
+    "nome_completo": "Carla Regina Costa",
+    "telefone": "(31) 95432-1098",
+    "whatsapp": "5531954321098",
+    "cpf_cnpj": "22.333.444/0001-55",
+    "vendedora_selecionada": "Ariane",
+    "endereco_completo": "Rua da Bahia, 321 - Belo Horizonte/MG",
+    "cep": "30160-011",
+    "created_at": 1705708800000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "cli_005",
+    "nome": "Mega Moda",
+    "nome_completo": "Roberto Lima Ferreira",
+    "telefone": "(11) 94321-0987",
+    "whatsapp": "5511943210987",
+    "cpf_cnpj": "555.666.777-88",
+    "vendedora_selecionada": "Daia",
+    "endereco_completo": "Rua 25 de Março, 555 - São Paulo/SP",
+    "cep": "01021-001",
+    "created_at": 1705795200000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "ped_001",
+    "cliente_id": "cli_001",
+    "cliente_nome": "Boutique Elegância",
+    "vendedora_selecionada": "Daia",
+    "data_pedido": "2026-01-10",
+    "status": "entregue",
+    "faturado": true,
+    "origem": "anuncio",
+    "observacoes": "Cliente solicitou entrega expressa",
+    "valor_total": 2450.00,
+    "quantidade_total": 15,
+    "valor_faturado": 2450.00,
+    "quantidade_faturada": 15,
+    "itens": [
+      {
+        "id": "item_001",
+        "nome_produto": "Vestido Longo Floral",
+        "referencia": "VLF-2024-001",
+        "quantidade_solicitada": 10,
+        "quantidade_faturada": 10,
+        "valor_unitario": 150.00,
+        "valor_total": 1500.00
+      },
+      {
+        "id": "item_002",
+        "nome_produto": "Blusa Manga Longa",
+        "referencia": "BML-2024-045",
+        "quantidade_solicitada": 5,
+        "quantidade_faturada": 5,
+        "valor_unitario": 190.00,
+        "valor_total": 950.00
+      }
+    ],
+    "comissao_representante": 122.50,
+    "quebra_caixa": 24.50,
+    "created_at": 1705449600000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "ped_002",
+    "cliente_id": "cli_002",
+    "cliente_nome": "Loja Fashion Store",
+    "vendedora_selecionada": "Ariane",
+    "data_pedido": "2026-01-12",
+    "status": "producao",
+    "faturado": false,
+    "origem": "recompra",
+    "observacoes": "Segunda compra do mês",
+    "valor_total": 3200.00,
+    "quantidade_total": 20,
+    "valor_faturado": 0,
+    "quantidade_faturada": 0,
+    "itens": [
+      {
+        "id": "item_003",
+        "nome_produto": "Calça Jeans Skinny",
+        "referencia": "CJS-2024-012",
+        "quantidade_solicitada": 15,
+        "quantidade_faturada": 0,
+        "valor_unitario": 180.00,
+        "valor_total": 2700.00
+      },
+      {
+        "id": "item_004",
+        "nome_produto": "Camiseta Básica",
+        "referencia": "CB-2024-089",
+        "quantidade_solicitada": 5,
+        "quantidade_faturada": 0,
+        "valor_unitario": 100.00,
+        "valor_total": 500.00
+      }
+    ],
+    "comissao_representante": 0,
+    "quebra_caixa": 0,
+    "created_at": 1705622400000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "ped_003",
+    "cliente_id": "cli_003",
+    "cliente_nome": "Style Center",
+    "vendedora_selecionada": "Daia",
+    "data_pedido": "2026-01-15",
+    "status": "entregue",
+    "faturado": true,
+    "origem": "anuncio",
+    "observacoes": "Cliente novo, primeira compra",
+    "valor_total": 5680.00,
+    "quantidade_total": 30,
+    "valor_faturado": 5100.00,
+    "quantidade_faturada": 25,
+    "itens": [
+      {
+        "id": "item_005",
+        "nome_produto": "Conjunto Social Feminino",
+        "referencia": "CSF-2024-023",
+        "quantidade_solicitada": 20,
+        "quantidade_faturada": 18,
+        "valor_unitario": 250.00,
+        "valor_total": 4500.00
+      },
+      {
+        "id": "item_006",
+        "nome_produto": "Blazer Alfaiataria",
+        "referencia": "BA-2024-007",
+        "quantidade_solicitada": 10,
+        "quantidade_faturada": 7,
+        "valor_unitario": 320.00,
+        "valor_total": 2240.00
+      }
+    ],
+    "comissao_representante": 255.00,
+    "quebra_caixa": 51.00,
+    "created_at": 1705881600000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "ped_004",
+    "cliente_id": "cli_004",
+    "cliente_nome": "Boutique Bella",
+    "vendedora_selecionada": "Ariane",
+    "data_pedido": "2026-01-14",
+    "status": "pendente",
+    "faturado": false,
+    "origem": "anuncio",
+    "observacoes": "Aguardando confirmação de pagamento",
+    "valor_total": 1850.00,
+    "quantidade_total": 12,
+    "valor_faturado": 0,
+    "quantidade_faturada": 0,
+    "itens": [
+      {
+        "id": "item_007",
+        "nome_produto": "Vestido Midi Estampado",
+        "referencia": "VME-2024-034",
+        "quantidade_solicitada": 8,
+        "quantidade_faturada": 0,
+        "valor_unitario": 180.00,
+        "valor_total": 1440.00
+      },
+      {
+        "id": "item_008",
+        "nome_produto": "Saia Plissada",
+        "referencia": "SP-2024-056",
+        "quantidade_solicitada": 4,
+        "quantidade_faturada": 0,
+        "valor_unitario": 102.50,
+        "valor_total": 410.00
+      }
+    ],
+    "comissao_representante": 0,
+    "quebra_caixa": 0,
+    "created_at": 1705795200000,
+    "updated_at": 1737158400000
+  },
+  {
+    "id": "ped_005",
+    "cliente_id": "cli_005",
+    "cliente_nome": "Mega Moda",
+    "vendedora_selecionada": "Daia",
+    "data_pedido": "2026-01-16",
+    "status": "separacao",
+    "faturado": false,
+    "origem": "recompra",
+    "observacoes": "Cliente fiel, 5ª compra",
+    "valor_total": 8920.00,
+    "quantidade_total": 50,
+    "valor_faturado": 0,
+    "quantidade_faturada": 0,
+    "itens": [
+      {
+        "id": "item_009",
+        "nome_produto": "Jaqueta Jeans",
+        "referencia": "JJ-2024-018",
+        "quantidade_solicitada": 25,
+        "quantidade_faturada": 0,
+        "valor_unitario": 220.00,
+        "valor_total": 5500.00
+      },
+      {
+        "id": "item_010",
+        "nome_produto": "Shorts Sarja",
+        "referencia": "SS-2024-072",
+        "quantidade_solicitada": 25,
+        "quantidade_faturada": 0,
+        "valor_unitario": 136.80,
+        "valor_total": 3420.00
+      }
+    ],
+    "comissao_representante": 0,
+    "quebra_caixa": 0,
+    "created_at": 1705968000000,
+    "updated_at": 1737158400000
+  }
+]
